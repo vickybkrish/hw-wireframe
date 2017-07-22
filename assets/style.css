@@ -1,0 +1,238 @@
+/*Stylesheet for Test page*/
+
+
+
+ body{
+  box-sizing: border-box;
+  background-image: url('extra_clean_paper.png');
+  width: 960px;
+  height:auto;
+  
+
+} 
+/* Main Container */
+.cnt{
+	box-sizing:border-box;
+	position:relative;
+	width:650px;
+	height:500px;
+	border-style:solid;
+	border-width:2px;
+	background-color: white;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	margin-left: 2px;
+	border-color:#dddddd;
+}
+
+.byst{
+  box-sizing: border-box;
+  height:auto;
+  border-style:thick;
+  border-width:1px;
+  margin:2px;
+
+}
+
+/*header - common*/
+.hdr{
+	position:fixed;
+	right:200px;
+	top: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	color:#4aaaa5;
+	border-color: #dddddd;
+	
+}
+
+/* Connect with me - common */
+
+.cnct{
+	border-style:solid;
+	border-width: 1px;
+	background-color: white;
+	margin:50px;
+	position:fixed;
+	right:150px;
+	top:30px;
+	padding bottom:10px;
+	width:270px;
+	height:150px;
+	text-align: center;
+	border-color: #dddddd;
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+.cnim{
+	margin-top: 2px;
+	width:70px;
+	height:60px;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.hdrt{
+	border-color: #cccccc;
+	border-style:solid;
+	border-width: 2px;
+	margin: 5px;
+}
+
+/* common - Name*/
+.abtme{
+	position:relative;
+	background-color: #4aaaa5;
+	font:sans-serif;
+	color:#777777;
+	font-size: 16px;
+	border-style: thin;
+	border-color: #cccccc;
+	width: 100px;
+	height:40px;
+	margin: 0px;
+	border-color: #dddddd;
+	left:40px;	
+}
+
+/* index.html - profilepic*/
+
+.profpic{
+	float:left;
+	position:relative;
+	padding-top: 10px;
+	padding-left: 20px;
+	left:20px;
+	top:20px;
+	height:200px;
+	width: 200px;
+}
+
+/*class for para*/
+.para{
+	float:right;
+	color:#77777;
+	overflow: hidden;
+	position: absolute;
+	top:20px;
+	padding-top: 10px;
+	padding-left: 40px;
+	font-family: sans-serif;
+
+}
+
+/*contact.html - Name and e-mail*/
+.ne{
+	position: relative;
+	left:20px;
+	width: 80%;
+	height:30px;
+	border-color: #dddddd;
+}
+
+/*contact.html - Message*/
+textarea {
+	position: relative;
+	left:20px;
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-color: #dddddd;
+    font-size: 16px;
+    resize: none;
+}
+
+
+.smt{
+	 background-color: #4aaaa5;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 width:80px;
+	 position: fixed;
+	 left:30px;
+}
+.row{
+	    margin-right: 15px;
+    	margin-left: 15px;
+    	display:flex;
+    	flex-wrap: wrap;
+    	display: block;
+    	padding: 10px;
+}
+.card{
+	position:relative;
+	float:left;
+	display: block;
+	top:-20px;
+	right: -20px
+	margin:auto;
+
+}
+.card-text{
+	    margin-bottom: 0;
+	    font-size: 85%;
+	    margin-top: 0;
+	    position: relative;
+	    display: flex;
+	    flex-direction: column;
+	    background-color: #4aaaa5;
+	    border:1px solid #ccc;
+	    color:white;
+	    width:130px;
+	    height:30px;
+	    text-align:center;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	   	z-index:100;
+	   	top:-30px;
+	   	left:20px;
+}
+/*footer*/
+
+.ftr{
+	clear:left;
+	font-family: "arial";
+	font-size: 12px;
+	color: grey;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	width: 99%;
+	padding-top:30px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-width:10px 0px 0px 0px;
+	border-color: #4aaaa5;
+	border-style: solid;
+}
+
+
+/* portfolio.html - */
+.ptfl-img{
+    margin:10px;
+    border: 1px solid #ccc;
+    padding: auto;
+	width: 150px;
+	height: 110px;
+	display:block;
+
+}
+
+/* portfolio.html - description*/
+/*.desc{
+	position:relative;
+	top:100px;
+	z-index: 100;
+    margin:10px;
+    border: 1px solid #ccc;
+	padding:15px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color:white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}*/
